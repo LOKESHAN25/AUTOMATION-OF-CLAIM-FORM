@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+<link rel="stylesheet" type="text/css"href="2329.css">
+
+</head>
+<body>
+
+
+	<div class="header">
+		<img src="data:image/png;base64,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" alt="Logo" class="logo">
+<h1 class="heading">Office of the Controller Of Examination</h1><br>
+<h2 class ="heading2">K.Ramakrishna College Of Engineering (Autonomous)</h2>
+</div>
+
+<u><h2 class="heading2">Claim for squad (Theory and Lab)</h2></u><br><br>
+<div class="container">
+<form action="loki.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		
+		<label for="designation">Designation & Department:</label>
+		<input type="text" id="designation" name="designation"><br><br>
+		
+		<label for="institution">Your Institution Name & Address:</label>
+<textarea id="institution" name="institution"></textarea><br><br>
+
+<label for="sem">Semester Month:</label>
+		<input type="text" id="sem" name="sem" pattern="[a-zA-Z0-9!@#$%^&*()_+=\[\]{}|`~\-\\]+"><br><br>
+
+<label for="college">College :</label>
+<select id="college"onchange="showContent()" name="college">
+<option value="K.Ramakrishna College of Engineering">K.Ramakrishna College of Engineering</option>
+<option value="Other college">Other college</option>
+</select>
+<center><p>NOTE: If you are from other college please select others</p></center>
+
+<br><br>
+		
+		<label for="contact">Contact Number:</label>
+		<input type="tel" id="contact" name="contact"><br><br>
+		
+		<label for="email">E-Mail ID:</label>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="date">Date :</label>
+<input type="date" id="date" name="date"><br><br>
+
+<label for="Session">Session :</label>
+<label>
+<input type="radio" name="session" value="morning">
+            Morning
+</label>
+
+<label>
+<input type="radio" name="session" value="afternoon">
+            Afternoon
+</label>
+<label>
+<input type="radio" name="session" value="both">
+            Both
+</label><br><br>
+
+
+<button id="print">SAVE AND PRINT</button>
+
+</a>
+
+</form>
+
+
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.0/jspdf.umd.min.js">
+document.getElementById('download-pdf').addEventListener('click', () => {
+const doc = new jsPDF();
+doc.html(document.body, {
+    callback: () => {
+doc.save('my-page.pdf');
+    }
+  });
+});
+document.getElementById('download-pdf').addEventListener('click', () => {
+$.get('/my-backend-data', (data) => {
+const doc = new jsPDF();
+    // Add the fetched data to the PDF
+doc.text(data.myProperty, 10, 10);
+    // Generate and download the PDF
+doc.html(document.body, {
+      callback: () => {
+doc.save('my-page.pdf');
+      }
+    });
+  });
+});
+
+
+</script>
+
+
+</body>
+</html>
+
+
+
+2329.css
+.container {
+    margin-top: 50px;
+    background-color: cadetblue;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+color: #333;
+
+}
+
+input[type="text"], input[type="email"], input[type="tel"],input [type="radio"],textarea ,select{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 90%;
+    resize: none;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: darkturquoise;
+color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.heading2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+
+input[type="submit"]:hover {
+    background-color: darkslategray;
+}
+
+
+button {
+    padding: 10px;
+    background-color: darkturquoise;
+color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkslategrey;
+}
+
+
+
+
+Loki.php
+<?php
+
+$name = $_POST['name'];
+$designation = $_POST['designation'];
+$institution = $_POST['institution'];
+$college = $_POST['college'];
+$contact = $_POST['contact'];
+$email = $_POST['email'];
+$date = $_POST['date'];
+$session = $_POST['session'];
+$sem = $_POST["sem"];
+$date_formatted = date('Y-m-d', strtotime($date));
+
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "claim";
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if (!$conn) {
+die("Connection failed: " . mysqli_connect_error());
+} else {
+    $stmt = $conn->prepare("INSERT INTO claim(name, designation, institution, college, contact, email, date, session, sem) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssssissss", $name, $designation, $institution, $college, $contact, $email, $date_formatted, $session, $sem);
+
+
+    $execval = $stmt->execute();
+    echo $execval;
+
+    $stmt->close();
+
+    $sql = "SELECT * FROM claim WHERE name = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("s", $name);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    if ($result->num_rows> 0) {
+        // Output the data
+        while ($row = $result->fetch_assoc()) {
+if($college == 'K.Ramakrishna College of Engineering') {
+                $amount = 250;
+            } else {
+                $amount = 500;
+            }
+            if ($session == "morning" || $session == "afternoon") {
+                $price = $amount+500;
+              } else if ($session == "both") {
+                $price = ($amount*2)+500;
+              }
+            echo '<!DOCTYPE html>
+<html>
+<head>
+<title>----Confidential----</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css"href="1818.css">
+</head>
+<body style="width: 793.7007874px; height: 1122.519685px;">
+<center>
+
+<div class="header">
+<img src="https://pbs.twimg.com/profile_images/1367784253228867589/7JZXLYiJ_400x400.jpg" alt="Logo" class="logo">
+<div class="heading">
+<center><div class="heading">
+<h1>Office of the Controller Of Examination</h1>
+</div></center>
+<center><div class="heading2">
+K.Ramakrishna College Of Engineering (Autonomous)
+</div></center>
+<center>
+<div class ="heading3">
+                   NH-45,Samayapuram,Tiruchirappalli-621112.
+</div>
+</center>
+<center>
+<div class ="heading4"><b><u>Claim for Squad(Theory and practical)</u></b></div>
+</center>
+</div>
+</div></center>
+<center><h3>B.E. /B.Tech. /M.E. /MBA End Semester Examination -  ' .htmlspecialchars($row["sem"]).'</h3></center>
+<hr>
+<br>
+
+<label for="name">  NAME:   ' . htmlspecialchars($row["name"]) .'</label>
+<br>
+<br>
+
+<label for="designation">  DESIGNATION:   '  . htmlspecialchars($row["designation"]) .'</label>
+<br>
+<br>
+<label for="institution">  INSTITUTION:   ' . htmlspecialchars($row["institution"]) .'</label>
+<br>
+<br>
+<br>
+<br>
+<label for="contact">  CONTACT:   ' . htmlspecialchars($row["contact"]) .'</label>
+<br>
+<br>
+<label for="email">  EMAIL:   ' . htmlspecialchars($row["email"]) .'</label>
+<br>
+<br>
+<table border=1>
+<thead>
+<tr>
+<th>S.No.</th>
+<th>Date</th>
+<th>Renumeration(per session)</th>
+<th>Total</th>
+</tr>
+
+<tbody>;
+
+<tr>
+<td>1</td>
+<td>' . $row["date"] .'</td>
+<td>' . $amount .'</td>
+<td>' . $price .'</td>
+</tr>
+</tbody></table>
+<center>
+
+<div class="header">
+<center><div class="heading">
+<h1>Renumeration Details For Squad</h1>
+</div></center>
+<center><div class="heading2">
+            (Rs.500/- Per session for External)
+</div></center>
+<center>
+<div class ="heading3">(Rs.250/- Per session for Internal)
+</div>
+</center>
+<center>
+<div class ="heading4"><b><u>TA & DA - Rs.500/- (Only for External)</u></b></div>
+</center>
+</div>
+</div></center>
+<br><br><br><br><br><br><br><br><br>
+
+<div class="sign">Signature of the Squad Member with Name</div>
+
+</body>
+</html>';
+        }
+
+    } else {
+        echo "0 results";
+    }
+mysqli_close($conn);
+}
+?>
+1818.css
+@media print {
+    html, body {
+        width: 210mm; 
+        height: 297mm;
+        margin: 0; 
+        font-size: 12pt; 
+    }
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+
+}
+
+.heading{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.heading2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.heading4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+td {
+padding: 35px;
+}
+.sign{
+    text-align: right;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
